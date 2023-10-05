@@ -1,0 +1,84 @@
+How large is your sample size? 
+
+Your Answer
+The size of the dataset is 1885 . 
+
+It has 6 columns and 1885 rows where the columns deals with date , open, high , low , close , adj close , volume of Ferrari share market values .
+
+
+Question 2
+Can your findings be generalized?
+
+Your Answer
+The conclusions drawn from the submitted stock data may only apply to the particular stock being examined over the specified time frame. On the basis of the facts, however, certain broad conclusions and analyses can be drawn. Here are some things to think about:
+
+
+
+Historical Stock Prices: From October 2015 to the present (with a cutoff in September 2021), historical stock prices for a specific stock are included in the data. For each trading day, these prices contain the opening, high, low, closing, and adjusted closing prices as well as the related volume.
+
+
+
+A close price that has been changed to account for stock splits, dividends, and other company actions. It reflects the stock's value that has been modified to account for these occurrences, and it can give a more realistic picture of the stock's performance over time.
+
+
+
+Volume: The number of shares traded each trading day is shown in the volume column. Increased market activity and interest in the stock may be indicated by higher volumes.
+
+
+Question 3
+Using your dataset, define which variables you think are independent and dependent 
+
+Your Answer
+The "Closing Price" of the stock, which is the variable being forecasted or examined, would normally be the dependent variable. The independent variable(s) may be any additional variables in the dataset that have the potential to influence or have an impact on the closing price, such as "Opening Price," "High Price," "Low Price," and "Volume."
+
+
+Question 4
+Determine the level of measurement (Review slides 27-34)
+
+Your Answer
+We need to take into account the qualities and attributes of the data in order to establish the degree of measurement for each variable. Nominal, ordinal, interval, and ratio are the four types of measurement that are typically used.
+
+
+
+Date: Depending on the exact format used (e.g., MM/DD/YYYY or YYYY-MM-DD), the "Date" variable denotes a specific point in time and is often measured at an interval or ratio level.
+
+
+
+Opening Price: A stock's opening price is represented by the "Opening Price" variable. It has a meaningful zero point and can be compared using mathematical operations, hence it is measured at the ratio level.
+
+
+
+High Price: A stock's highest price during a particular period is represented by the "High Price" variable. Since it has a meaningful zero point and may be subject to mathematical operations, it is also measured at the ratio level.
+
+
+
+Low Price: A stock's lowest price during a particular period is represented by the "Low Price" variable. It is measured at a ratio level, much as the previous variables.
+
+
+Question 5
+Determine whether the variables are discrete or continuous
+
+Your Answer
+Date: Discrete (since it only refers to discrete moments in time)
+
+Opening Price: Continuous (since it is capable of taking on any number within a range)
+
+High Price: Continuous (likely taking on any numerical value within a range)
+
+Low Price: Continuous (it can have any numeric value falling within a range)
+
+Closing Price: Continuous (any numerical number within a range is acceptable).
+
+Volume: Discrete or Continuous (depending on how it is measured; if it represents the number of traded shares, it would be discrete; if it represents a continuous quantity, such the total number of traded shares, it would be continuous).
+
+
+Question 6
+Define which statistical techniques can be used (Descriptive or Inferential Statistics & Why)
+
+Your Answer
+The properties of the given dataset can be summed up and described using descriptive statistics. To comprehend the central tendency, dispersion, and overall distribution of the data, they offer measurements like mean, median, standard deviation, and visual representations.
+
+
+
+Inferential Statistics: Based on sample data, inferential statistics can be used to infer, test, and draw conclusions about the population. It uses methods including confidence intervals, regression analysis, and hypothesis testing. We can extrapolate the results from the sample to the entire population using these methods.
+
